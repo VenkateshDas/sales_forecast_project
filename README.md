@@ -14,6 +14,6 @@ Since the colab environment was used for development please click below and open
 
 An online retail historical sales transactions were analyzed for future sales forecasting. To forecast these sales, I employed five machine learning models: Light Gradient Boosted Model (LightGBM), Auto-Regressive Integrated Moving Average (ARIMA), Seasonal Autoregressive Integrated Moving Average with Exogenous Variables (SARIMAX), Prophet (a Generative Additive Model), and Recurrent Neural Network (RNN).
 
-Upon testing these models, I found that the Prophet model outperformed the others in delivering a reliable sales forecast over an extended period, even with a limited dataset. The other models faced challenges in generating accurate and noise-free predictions for such long time horizons.
+Upon testing these models, I found that the Prophet model outperformed the others in delivering a reliable sales forecast over an extended period, even with a limited dataset. The other models faced challenges in generating reasonable and noise-free predictions for such long time horizons.
 
 In this project, I focused solely on univariate analysis. For future work, I recommend exploring multivariate and multiple time series analysis. Additionally, ensemble models could offer improved accuracy in sales forecasting.
